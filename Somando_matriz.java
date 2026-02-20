@@ -15,6 +15,8 @@ public class Somando_matriz {
 
             for (int j = 0; j < matriz[i].length; j++) {
 
+                System.out.print("Elemento [" + i + "][" + j + "]: ");
+
                 matriz[i][j] = ler.nextInt();
 
                 soma += matriz[i][j];
@@ -28,3 +30,4 @@ public class Somando_matriz {
          System.out.println("........................................");
     }
 }
+
