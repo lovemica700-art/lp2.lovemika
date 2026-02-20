@@ -15,6 +15,8 @@ public class Somando_diagonal_secundaria {
         for (int i = 0; i < matriz.length; i++ ){
 
             for (int j = 0; j < matriz[i].length; j++){
+
+                System.out.print("Elemento [" + i + "][" + j + "]: ");
                  
                 matriz[i][j] = ler.nextInt();
 
@@ -32,3 +34,4 @@ public class Somando_diagonal_secundaria {
         
     }
 }
+
